@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+*{
+    margin:0;
+    padding:0;
+    transition: all .2s linear;
+}
+input {
+    text-align: center;
+  }
+-webkit-input-placeholder {
+    text-align: center;
+  }
+.container{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+  
+}
+.container form {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        height: 670px;
+        width: 700px;
+        background: rgba(255,255,255,.1);
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0 5px 15px rgba(0,0,0,.3);
+        border-top: 1px solid rgba(255,255,255,.3);
+        border-left: 1px solid rgba(255,255,255,.3);
+        backdrop-filter: blur(10px);
+    }
+.container form h3{
+    font-size: 30px;
+    padding:30px 0;
+    color:burlywood;
+    letter-spacing: 3px;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.container form input{
+    outline: none;
+    border: none;
+    height: 34px;
+    width: 75%;
+    background: rgba(0,0,0,.1);
+    color: burlywood;
+    box-shadow: 0 0 5px rgba(255,255,255,.5);
+    font-size: 17px;
+    padding: 0 10px;
+    margin: 8px;
+    letter-spacing: 1px;
+    font-family: 'Yusei Magic', sans-serif;
+    border-radius: 34px;
+
+}
+.container form input[type="file"]{
+    padding-left: 144px;
+    padding-top: 4px;
+    
+}
+label{
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 13px;
+}
+button{
+    display: flex;
+    background: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+    text-decoration: none;
+    /* color: rgba(255,255,255,.7); */
+    color: burlywood;
+    box-shadow: 0 0 5px rgba(209, 182, 182, 0.5);
+    /* background: rgba(0,0,0,.1); */
+    border-radius: 23px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 11px 256px;
+
+}
+button:hover{
+    letter-spacing: 1px;
+}
+
+.form-group{
+    display:flex;
+    justify-content: center;
+    margin: 2px 3px;
+    padding-left: 24px;
+    flex-flow: row;
+}
+.form-group label input{
+    box-shadow: none;
+    margin: 0px 3px;
+    height:26px;
+}
+.form-group label span{
+    text-align: center;
+    justify-content: center;
+    margin: 2px 3px;
+   
+}

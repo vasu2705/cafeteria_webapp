@@ -1,0 +1,52 @@
+extends base.pug
+
+
+block style
+   style
+      include ../static/style.css
+      include ../static/signup.css 
+ 
+block content
+    
+    <div class="container">
+        <form action="/signup" method="post" id="form">
+                    <h3> Signup </h3>
+                    <input type="text"name="first_name" placeholder=" FIRST NAME" required>
+    
+                    <input type="text"name="last_name" placeholder="LAST NAME" required>
+
+                    <input type="text"name="org_name" placeholder="ORGANIZATION NAME" required>
+            
+                    <input type="text"name="emp_no" placeholder="EMPLOYEE ID NUMBER" required>
+               
+                    <input type="teL" name="contact"placeholder="CONTACT  NUMBER" required>
+        
+                    <input type="password" placeholder=" CREATE PASSWORD" name="password" required>
+                    
+                    <input type="password" placeholder=" RE-ENTER PASSWORD" name="confirmpassword" required>
+
+                    <input type="email" name="email" placeholder="ENTER YOUR EMAIL"  required>
+                    
+                    //- <input type="file"  name ="file" id="myFile" name="filename">
+                        <label>upload ID CARD:-upload file in "jpg","png"</label>
+                    <div>
+                 
+                     div.form-group
+                      <label>
+                        <input type="radio" name="gender" value="male" checked>
+                        <span>MALE</span>
+                      </label>
+                      <label>
+                        <input type="radio" name="gender" value="female"   checked>
+                        <span>FEMALE</span>
+                       
+                      </label>
+                     <button value="submit">sign up</button>
+                    </div>
+
+    
+        </form>   
+    
+    
+    script
+      include ../static/signup.js

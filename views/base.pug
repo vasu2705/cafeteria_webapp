@@ -1,0 +1,20 @@
+//- index.pug
+doctype html
+html
+  head
+    title CAFETERIA
+    block scripts
+    block style
+  body
+    nav#navbar.top
+      ul
+        div#logo 
+          img(src="/static/6.png")
+        li #[a(href="/") HOME]
+        li #[a(href="/menu") MENU]
+        li #[a(href="/about") ABOUT US]
+        li #[a(href="/contact") CONTACT US]
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+    block content
+    footer#footer
+       | Copyright 20-2021  © Cafetria All rights | reserved         

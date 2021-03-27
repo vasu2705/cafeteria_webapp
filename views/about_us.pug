@@ -1,0 +1,36 @@
+extends base.pug
+
+block scripts
+ script(src='/static/index.js')
+
+block style
+   style
+      include ../static/style.css
+      include ../static/about_us.css 
+
+block content
+ 
+  div.container
+       h3 ABOUT US
+       div.card-box 
+            div.card-img
+              img(src="static/vasu.png")
+            div.card-content 
+             h4 VASUDEV KANUNGO
+             p FULL STACK WEB DEVELOPER
+             p  AITR' 23
+             p Email : <a href="#">vasukanungo4040@gmail.com<a>
+             a(class='button', href='/contact') Contact us
+               |
+               |
+       div.card-box 
+            div.card-img
+              img(src="static/simran2.jpg")
+            div.card-content 
+             h4 SIMRAN SETHI
+             p  FULL STACK WEB DEVELOPER
+             P  AITR' 23
+             p Email : <a href="#">simran.sethi0205@gmail.com</a>
+             a(class='button', href='/contact') Contact us 
+               |
+               |
