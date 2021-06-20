@@ -1,136 +1,126 @@
-@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Chewy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Source+Sans+Pro:wght@300&display=swap");
 
-*{
-    margin:0px;
-    box-sizing: border-box;
-    padding:0px;
- }
- #logo img {
-    height: 190px;
-   
-    margin-top: -65px;
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+#logo img {
+  height: 190px;
 
-    padding-right: -15px;
-    display: flex;
-   
-    margin-left: -379px;
-    
-    width: 190px;
+  margin-top: -65px;
+
+  padding-right: -15px;
+  display: flex;
+
+  margin-left: -379px;
+
+  width: 190px;
 }
-#navbar{
-     /* background-color: rgb(197, 137, 57);  */
-    padding: 15px 16px;
-    font-family: 'Chewy', cursive;
- 
+#navbar {
+  /* background-color: rgb(197, 137, 57);  */
+  padding: 15px 16px;
+  font-family: "Chewy", cursive;
 }
-#navbar ul
-{
-margin:30px 14px;
-padding:13px 14px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-/* align-items: center; */
+#navbar ul {
+  margin: 30px 14px;
+  padding: 13px 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
 }
-#navbar li
-{
-list-style:none;
+#navbar li {
+  list-style: none;
 }
 #navbar li a {
-    
-    text-decoration: none;
-    padding:13px 14px;
-    font-weight: 500;
-    color: white;
-    font-size: 29px;
+  text-decoration: none;
+  padding: 13px 14px;
+  font-weight: 500;
+  color: white;
+  font-size: 29px;
 }
-#navbar li a:hover{
-    font-weight: 950;
-    color:aliceblue;
+#navbar li a:hover {
+  font-weight: 950;
+  color: aliceblue;
 }
 .container {
-    display: flex;
-    flex-direction: column;
-     margin: 5px 6px; 
-    padding: 7px 8px;
-    align-items: center;
-    font-family: 'Chewy', cursive;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 5px 6px;
+  padding: 7px 8px;
+  align-items: center;
+  font-family: "Chewy", cursive;
+  color: white;
 }
-.container h1{
-    font-size:66.5px;
-    font-weight: 500;
+.container h1 {
+  font-size: 66.5px;
+  font-weight: 500;
 }
-.container h2{
-    font-size:84.6px;
-    font-weight: 500;
+.container h2 {
+  font-size: 84.6px;
+  font-weight: 500;
 }
-body{
-  
-    background-image:url("/static/2.png");
-    background-position: absolute;
-    background-repeat: repeat;
-    background-size: cover;
-   
+body {
+  background-image: url("/static/2.png");
+  background-position: absolute;
+  background-repeat: repeat;
+  background-size: cover;
 }
-.btn{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-   
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-.btn .botton{
-    margin: 13px 24px;
-    padding: 12px 10px;
-    width:10%;
-    font-size: 18px;
-    border: 2px solid grey;
-    border-radius: 14px;
-    outline: none;
-    cursor: pointer;
-    background-color:white;
-    font-family: 'Chewy', cursive;
-   
-
+.btn .botton {
+  margin: 13px 24px;
+  padding: 12px 10px;
+  width: 10%;
+  font-size: 18px;
+  border: 2px solid grey;
+  border-radius: 14px;
+  outline: none;
+  cursor: pointer;
+  background-color: white;
+  font-family: "Chewy", cursive;
 }
 
-.btn .botton1{
-    margin: 13px 24px;
-    padding: 12px 10px;
-    width:10%;
-    font-size: 18px;
-   border: 2px solid grey;
-    border-radius: 14px;
-    outline: none;
-    cursor: pointer;
-    background-color: white;
-    font-family: 'Chewy', cursive;
+.btn .botton1 {
+  margin: 13px 24px;
+  padding: 12px 10px;
+  width: 10%;
+  font-size: 18px;
+  border: 2px solid grey;
+  border-radius: 14px;
+  outline: none;
+  cursor: pointer;
+  background-color: white;
+  font-family: "Chewy", cursive;
 }
-.botton1:hover{
-    background-color: rgb(192, 161, 121);  
+.botton1:hover {
+  background-color: rgb(192, 161, 121);
 }
-.botton:hover{
-    background-color: rgb(192, 161, 121);  
+.botton:hover {
+  background-color: rgb(192, 161, 121);
 }
 
-
-#footer{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width:100%;
-    font-size: 10px;
-    color:white;
-    height:14px;
-    background-color:black;
-    font-family: 'Oxygen', sans-serif;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    opacity:0.5;
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 10px;
+  color: white;
+  height: 14px;
+  background-color: black;
+  font-family: "Oxygen", sans-serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  opacity: 0.5;
 }
-a{
-    text-decoration: none;
-    color:black;
+a {
+  text-decoration: none;
+  color: black;
 }

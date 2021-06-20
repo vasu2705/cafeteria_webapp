@@ -167,5 +167,5 @@ app.get("/menu", (req, res) => {
 
 // START THE SERVER
 app.listen(port, () => {
-  console.log("the application started successfully on port ${port}");
+  console.log(`the application started successfully on port ${port}`);
 });
